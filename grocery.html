@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styleff.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 22%;
+    padding: 0 10px;
+    padding-left: 2em;
+  }
+
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 26px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+.card img{
+  width: 70%;
+}
+
+.checked {
+color: orange;
+}
+.pagination {
+display: inline-block;
+float:right;
+}
+.pagination a {
+  color: black;
+
+  padding: 8px 16px;
+  text-decoration: none;
+
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+
+
+</style>
+</head>
+<body style="    background-color: antiquewhite;">
+
+  <div class="topnav" id="myTopnav"  >
+    <a href="index.html" >Home</a>
+      <a href="#veg" >Vegetables</a>
+        <a href="#flour" >Flour</a>
+          <a href="#other" >Other</a>
+      </div>
+<br>
+
+      <div class="row" id="vege">
+        <div class="column">
+          <div class="card">
+            <img src="https://img1.mashed.com/img/uploads/2017/07/vegetables.jpg" alt="img">
+            <p>Green and Fresh Vegetables</p>
+            <p class="price">$11.01  <strike>$15.4</strike></p>
+            <span class="fa fa-star checked"></span>
+           <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+           <span class="fa fa-star checked"></span>
+           <span class="fa fa-star"></span>
+           <br>
+           <button style="padding: 10px;">Add To Cart</button><button style="padding: 10px;">Buy Now</button>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+              <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/carrot-overhead-group-lined-up-on-old-brown-wooden-royalty-free-image-625009188-1564523268.jpg" alt="img">
+              <p>Healthy and Fresh Carrots</p>
+              <p class="price">$09.01  <strike>$11.00</strike></p>
+              <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+             <span class="fa fa-star checked"></span>
+             <span class="fa fa-star"></span>
+             <br>
+             <button style="padding: 10px;">Add To Cart</button><button style="padding: 10px;">Buy Now</button>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="https://assets-api.kathmandupost.com/thumb.php?src=https://assets-cdn.kathmandupost.com/uploads/source/news/2020/money/p6-money-lead.jpg&w=900&height=601" alt="img">
+            <p>Healthy and Fresh Carrots</p>
+            <p class="price">$09.01  <strike>$11.00</strike></p>
+            <span class="fa fa-star checked"></span>
+           <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+           <span class="fa fa-star checked"></span>
+           <span class="fa fa-star"></span>
+           <br>
+           <button style="padding: 10px;">Add To Cart</button ><button style="padding: 10px;">Buy Now</button>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+          <img src="https://cdn.britannica.com/16/187216-050-CB57A09B/tomatoes-tomato-plant-Fruit-vegetable.jpg" alt="img">
+          <p>Healthy and Fresh Carrots</p>
+          <p class="price">$09.01  <strike>$11.00</strike></p>
+          <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+         <span class="fa fa-star checked"></span>
+         <span class="fa fa-star"></span>
+         <br>
+         <button style="padding: 10px;">Add To Cart</button ><button style="padding: 10px;">Buy Now</button>
+          </div>
+        </div>
+      </div>
+<br>
+
+<div class="row" id="flour">
+  <div class="column">
+    <div class="card">
+      <img src="https://www.wellthy.care/wp-content/uploads/2017/11/shutterstock_417963469-e1516466460588.jpg" alt="img">
+      <p>Healthy and Fresh Carrots</p>
+      <p class="price">$09.01  <strike>$11.00</strike></p>
+      <span class="fa fa-star checked"></span>
+     <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+     <span class="fa fa-star checked"></span>
+     <span class="fa fa-star"></span>
+     <br>
+     <button style="padding: 10px;">Add To Cart</button><button style="padding: 10px;">Buy Now</button>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://www.aashirvaad.com/images/Group-46.png" alt="img">
+      <p>Healthy and Homemade Gehu atta</p>
+      <p class="price">$09.01  <strike>$11.00</strike></p>
+      <span class="fa fa-star checked"></span>
+     <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+     <span class="fa fa-star "></span>
+     <span class="fa fa-star"></span>
+     <br>
+     <button style="padding: 10px;">Add To Cart</button><button style="padding: 10px;">Buy Now</button>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://www.kannammacooks.com/wp-content/uploads/100-percent-whole-grain-whole-wheat-indian-chakki-atta-bread-recipe-1-2.jpg" alt="img">
+      <p>Ashirwad atta pack of 5</p>
+      <p class="price">$20.01  <strike>$25.00</strike></p>
+      <span class="fa fa-star checked"></span>
+     <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+     <span class="fa fa-star "></span>
+     <span class="fa fa-star"></span>
+     <br>
+     <button style="padding: 10px;">Add To Cart</button><button style="padding: 10px;">Buy Now</button>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+        <img src="https://lh3.googleusercontent.com/proxy/sEb_xHZK8hhYn9WpA8tLnax7M2crschV4syuWsfsAEktHxQk-CxGNffMTK5DsS0Ptv74tKJF2yqa2hO8GTbfga0_hIZwDPaoYG6UQosEr9DBEe-00ssh_ohjYQw85ZDbE8R1yHj3gg" alt="img">
+        <p>Nature Fresh WHEAT flour<br>Sampoorna</p>
+        <p class="price">$08.01  <strike>$11.00</strike></p>
+        <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+       <br>
+       <button style="padding: 10px;">Add To Cart</button><button style="padding: 10px;">Buy Now</button>
+    </div>
+  </div>
+</div>
+<br>
+
+
+<div class="row" id="other">
+  <div class="column">
+    <div class="card">
+        <img src="https://i.pinimg.com/originals/50/89/ae/5089ae6fb3e1322c361275562577a7e3.jpg" alt="img">
+        <p>Tide cloth Soap-pack of 5</p>
+        <p class="price">$07.01  <strike>$10.00</strike></p>
+        <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+       <span class="fa fa-star"></span>
+       <br>
+       <button style="padding: 10px;">Add To Cart</button><button style="padding: 10px;">Buy Now</button>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://lh3.googleusercontent.com/proxy/StNeD3KptdQ9IKHd5ijMeTAn7unbFyl_v1JI7_0nqpN39aZYxenOe5al978wppk80ybFE0o2ly--ZfV74hDUxHK1A8Yjq7TxjInY3l_9ngJJimsrw8Prcg" alt="img">
+      <p>Pack of Handwash -Dettol</p>
+      <p class="price">$09.01  <strike>$11.00</strike></p>
+      <span class="fa fa-star checked"></span>
+     <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+     <span class="fa fa-star checked"></span>
+     <span class="fa fa-star"></span>
+     <br>
+     <button style="padding: 10px;">Add To Cart</button><button style="padding: 10px;">Buy Now</button>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://sc01.alicdn.com/kf/UTB8TnihuiDEXKJk43Oqq6Az3XXaE.jpg_350x350.jpg" alt="img">
+      <p>Chakravarthi Cloth Bar</p>
+      <p class="price">$09.01  <strike>$11.00</strike></p>
+      <span class="fa fa-star checked"></span>
+     <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+     <span class="fa fa-star "></span>
+     <span class="fa fa-star"></span>
+     <br>
+     <button style="padding: 10px;">Add To Cart</button><button style="padding: 10px;">Buy Now</button>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+        <img src="https://tiimg.tistatic.com/fp/1/001/367/soap-detergent-industry-604.jpg" alt="img">
+        <p>Vim Dish Wash Bar Pack of 5<br>Best Dish Wash</p>
+        <p class="price">$09.01  <strike>$11.00</strike></p>
+        <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star"></span>
+       <br>
+       <button style="padding: 10px;">Add To Cart</button><button style="padding: 10px;">Buy Now</button>
+    </div>
+  </div>
+</div>
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#" class="active">1</a>
+  <a href="#" >2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div>
+
+
+</body>
+</html>
